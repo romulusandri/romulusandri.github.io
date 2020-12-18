@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Score Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section id="tampung">
+        <div class="container">
+
+            <h1>Go Score !</h1>
+            <!-- <h1 ><span id="aDisplay">0</span> <span id="bDisplay">0</span></h1> -->
+            <div class="latarscore">
+                <img src="latarscore.jpg">
+            </div>
+            <h1 ><span id="aDisplay">0</span> <span id="bDisplay">0</span></h1>
+            <label for="playto" class="label is-large is-inline">POINT MAX</label><br>
+            <div class="select">
+                <select name="" id="playto">
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+        
+        <footer class="tombolBawah">
+            <button id="aButton" class="classAButton">+1 A</button>
+            <button id="bButton" class="classBButton">+1 B</button><br>
+            <br>
+            <button id="reset" class="classReset">Reset</button>
+        </footer>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
